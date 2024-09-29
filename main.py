@@ -1,2 +1,1 @@
-import pandas as pd
-print(pd. __version__)
+# project starts from here if we want to run in a single execution

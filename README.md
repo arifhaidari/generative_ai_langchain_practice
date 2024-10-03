@@ -1,4 +1,4 @@
-# Generative AI & LangChain practice
+# Generative AI & LangChain practice (Under development)
 
 ## Technologies used:
 
@@ -21,4 +21,4 @@ feed some pdf file and then ask question
 ---
 
 disclaimer:
-part of the code is written while following/watching some courses from different sources and also some part of the code is copied from stackoverflow.
+part of the code is written (inspired from) while following/watching some courses from different sources and also some part of the code is copied from stackoverflow.

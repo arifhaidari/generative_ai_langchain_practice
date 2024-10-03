@@ -8,12 +8,12 @@ import os
 
 os.environ['OPENAI_API_KEY'] = 'key goes here'
 
-st.title("Cuisine Name Generator")
+st.title("Menu Name Generator")
 
 cuisine = st.sidebar.selectbox("Pick a Cuisine", ("Afghan", "Pakistani", "Mexican", "Arabic", "German"))
 
 if cuisine:
-    response = langchain_helper.generate_restaurant_name_and_items(cuisine)
+    response = generate_restaurant_name_and_items(cuisine)
     st.header(response['restaurant_name'].strip())
     menu_items = response['menu_items'].strip().split(",")
     st.write("**Menu Items**")
@@ -51,5 +51,3 @@ def generate_restaurant_name_and_items(cuisine):
 
     return response
 
-if __name__ == "__main__":
-    print(generate_restaurant_name_and_items("Italian"))

@@ -1,4 +1,4 @@
-# Generative AI & LangChain Practice (Under Development)
+# Generative AI, LangChain and LMM (Practices)
 
 This repository hosts a series of projects to practice and experiment with **Generative AI** and **LangChain**, integrating various tools and APIs to build intelligent applications for data generation, question-answering, and more. These projects help enhance understanding of language models and frameworks by applying them to real-world scenarios.
 

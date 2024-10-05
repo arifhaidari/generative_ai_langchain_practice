@@ -10,7 +10,7 @@ os.environ['OPENAI_API_KEY'] = 'key goes here'
 
 st.title("Menu Name Generator")
 
-cuisine = st.sidebar.selectbox("Pick a Cuisine", ("Afghan", "Pakistani", "Mexican", "Arabic", "German"))
+cuisine = st.sidebar.selectbox("Select a Cuisine", ("Afghan", "Pakistani", "Mexican", "Arabic", "German"))
 
 if cuisine:
     response = generate_restaurant_name_and_items(cuisine)
@@ -19,8 +19,6 @@ if cuisine:
     st.write("**Menu Items**")
     for item in menu_items:
         st.write("-", item)
-
-
 
 llm = OpenAI(temperature=0.7)
 
